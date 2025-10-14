@@ -24,7 +24,7 @@ const decodeJWT = (token) => {
 };
 
 const BASE_URL ="https://nadi-gibe-web-backend.onrender.com";
-const FRONTEND_URL = import.meta.env.VITE_FRONTEND_URL;
+const FRONTEND_URL = "https://nadi-gibe-web.onrender.com";
 
 export const AuthProvider = ({ children }) => {
   const [authState, setAuthState] = useState({
