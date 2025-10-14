@@ -29,7 +29,7 @@ app.use(
 const allowedOrigins =
   process.env.CORS_ORIGIN === "*"
     ? "*"
-    : process.env.CORS_ORIGIN?.split(",") || ["http://localhost:5173"];
+    : process.env.CORS_ORIGIN?.split(",") || ["https://nadi-gibe-web.onrender.com"];
 app.use(
   cors({
     origin: allowedOrigins,
