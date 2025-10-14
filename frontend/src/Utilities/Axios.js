@@ -1,5 +1,5 @@
 import axios from "axios";
-const BASE_URL = import.meta.env.;
+const BASE_URL = "https://nadi-gibe-web-backend.onrender.com";
 
 // Create instance without hooks
 const instance = axios.create({
