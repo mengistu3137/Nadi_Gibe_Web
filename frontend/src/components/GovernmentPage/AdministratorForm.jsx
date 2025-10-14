@@ -369,7 +369,7 @@ const AdministratorForm = ({
     if (!imagePath) return "";
     if (imagePath.startsWith("http")) return imagePath;
     if (imagePath.startsWith("blob:")) return imagePath;
-    return `${import.meta.env.VITE_BACKEND_URL || ""}${imagePath}`;
+    return `${"https://nadi-gibe-web-backend.onrender.com"}${imagePath}`;
   };
 
   // Helper function to check if field should show error

@@ -23,7 +23,7 @@ const decodeJWT = (token) => {
   }
 };
 
-const BASE_URL = import.meta.env.VITE_BACKEND_URL;
+const BASE_URL ="https://nadi-gibe-web-backend.onrender.com";
 const FRONTEND_URL = import.meta.env.VITE_FRONTEND_URL;
 
 export const AuthProvider = ({ children }) => {

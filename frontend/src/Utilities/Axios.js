@@ -1,5 +1,5 @@
 import axios from "axios";
-const BASE_URL = import.meta.env.VITE_BACKEND_URL;
+const BASE_URL = import.meta.env.;
 
 // Create instance without hooks
 const instance = axios.create({

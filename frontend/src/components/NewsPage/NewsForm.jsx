@@ -224,7 +224,7 @@ const NewsForm = ({
     if (!imagePath) return "";
     if (imagePath.startsWith("http")) return imagePath;
     if (imagePath.startsWith("blob:")) return imagePath;
-    return `${import.meta.env.VITE_BACKEND_URL || ""}${imagePath}`;
+    return `${"https://nadi-gibe-web-backend.onrender.com"}${imagePath}`;
   };
 
   if (!isOpen) return null;
